@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTPC</title>
+    <br>
+    <br>
+    <style>
+        .header{
+            text-align: center;
+            -webkit-text-fill-color: hwb(244 11% 3%);
+            align-items: center;
+        }
+        .login{
+            text-align: center;
+            text-shadow:1px gray
+            }
+        input{
+            text-align:left;
+            display: block;
+            display: flex;
+            border-radius: 25px;
+            margin-left: 120px;
+            width: 200px;
+            height: 25px;
+            border: none;
+        }
+        .button{
+            text-align: center;
+            margin-top: 5%;
+            margin-left: 40%;
+            width: 120px;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            background-color: rgb(53, 53, 204);
+            display: inline-block;
+        }
+        .forget{
+            text-align: center;
+            margin-top: 10px;
+            border-radius: 25px;
+        }
+        .divider-text-with{
+            text-align: center;
+            width: 150px;
+            height: fit-content;
+            margin-left: 150px;
+        }
+        .social button{
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 10px;
+        }
+        footer{
+            text-align: center;
+            bottom: 0;
+            position: fixed;
+            padding: 15px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <H1>NTPC</H1>
+        <h3> NTPC CONNECT</h3>
+    </div>
+    <br>
+    <div class="login">
+        <h3>Login To Your Account</h3>
+        <br>
+    </div>
+    <div class="input">
+                <input type="text" id="Email/Employee ID" placeholder="Email/Employee ID"
+                style="box-shadow: 5px 5px 5px gray;">
+        <br>
+        <br>
+        <input type="text" id="password" placeholder="Password" 
+        style="box-shadow: 5px 5px 5px gray;">
+    </div>
+    <div class="button">
+    <button style="background-color: rgb(58, 58, 204); border: none; ">Login</button>
+    </div>
+    <div class="button">
+    <button style="background-color:rgb(58, 58, 204); border: none">forget password?</button>
+    </div>
+    <div class="divider-text-with">
+        <hr>
+        <span>OR CONTINUE WITH</span>
+        <hr>
+     </div>
+    <br>
+    <div style="text-align: center; height: fit-content; border-radius: 20px;">
+        <button><img src="https://pngimg.com/uploads/google/google_PNG19635.png" alt="google_PNG19635" height="30px">login google</button>
+        <button><img src="https://media.istockphoto.com/id/936681148/vector/lock-icon.jpg?s=612x612&w=0&k=20&c=_0AmWrBagdcee-KDhBUfLawC7Gh8CNPLWls73lKaNVA=" alt="logo" height="30px">login with OTP</button>
+    </div>
+    <footer>
+        <p>&copy;Secured By Supabase Auth</p>
+    </footer>
+    </body>
+</html>
